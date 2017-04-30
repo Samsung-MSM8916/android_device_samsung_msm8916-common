@@ -145,8 +145,6 @@ PRODUCT_PACKAGES += \
 
 # OMX
 PRODUCT_PACKAGES += \
-    libextmedia_jni \
-    libqcmediaplayer \
     libOmxAacEnc \
     libOmxAmrEnc \
     libOmxCore \
@@ -156,9 +154,6 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libOmxVidcCommon \
     libstagefrighthw
-
-PRODUCT_BOOT_JARS += \
-    qcmediaplayer
 
 # Gello
 PRODUCT_PACKAGES += \
@@ -198,8 +193,7 @@ PRODUCT_PACKAGES += \
     libxml2 \
     Stk \
     Stk2 \
-    busybox \
-    su
+    busybox
 
 # Misc. libs
 PRODUCT_PACKAGES += \
