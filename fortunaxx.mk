@@ -96,7 +96,7 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     libqcompostprocbundle \
     libqcomvisualizer \
-    libqcomvoiceprocessing	
+    libqcomvoiceprocessing
 
 # TinyAlsa utils
 PRODUCT_PACKAGES += \
@@ -237,7 +237,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     cm.updater.uri=http://updates.cm-ota.pp.ua
 
 # We have enough storage space to hold precise GC data
-PRODUCT_TAGS += dalvik.gc.type-precise	
+PRODUCT_TAGS += dalvik.gc.type-precise
 
 # Common qcom
 $(call inherit-product, device/samsung/qcom-common/qcom-common.mk)
