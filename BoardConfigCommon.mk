@@ -111,8 +111,8 @@ EXTENDED_FONT_FOOTPRINT              := true
 
 # Audio
 BOARD_USES_ALSA_AUDIO                := true
-USE_CUSTOM_AUDIO_POLICY              := 1
-TARGET_QCOM_AUDIO_VARIANT            := caf
+#USE_CUSTOM_AUDIO_POLICY              := 1
+#TARGET_QCOM_AUDIO_VARIANT            := caf
 
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND         := true
