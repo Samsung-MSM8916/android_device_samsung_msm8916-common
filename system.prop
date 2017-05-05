@@ -44,7 +44,7 @@ media.stagefright.less-secure=true
 
 # Audio
 af.fast_track_multiplier=1
-audio.offload.disable=false
+audio.offload.disable=true
 audio.offload.gapless.enabled=false
 audio.offload.multiple.enabled=false
 audio.offload.pcm.16bit.enable=false
@@ -52,8 +52,8 @@ audio.offload.pcm.24bit.enable=false
 audio.offload.video=false
 ro.audio.offload_wakelock=false
 tunnel.audio.encode=false
-#av.offload.enable=false
-#av.streaming.offload.enable=false
+av.offload.enable=false
+av.streaming.offload.enable=false
 audio.offload.buffer.size.kb=32
 use.voice.path.for.pcm.voip=true
 ro.qc.sdk.audio.fluencetype=none
